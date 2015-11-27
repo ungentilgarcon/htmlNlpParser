@@ -69,7 +69,7 @@ class parse_text(Thread):
 				#...BUT PROCESS ONLY IF URLS MATCH
 			if domain1 == domain2:
 				urllinked2 = processlinks(link)
-		#CHECK IF A THOUSAND OR MORE? IF NOT RERUN,IF SO CUT AT 999
+		#CHECK IF A THOUSAND OR MORE? IF NOT RERUN,IF SO CUT AT 999....AND APPEND
 
 	urllinked.append(url)
 	req = Request( url, headers={'User-Agent': 'Mozilla/5.0'})
