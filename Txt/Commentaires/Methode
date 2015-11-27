@@ -1,0 +1,28 @@
+On cherche a definir les termes d'une culture num&rique sur lyon.
+
+Pour cela on identifie d'abord quelques sites -120- qui nous serviront de référence en matiere d'humanites numérique/art numérique, ils nous serviron d'entree en la matiere ; la serendipité de l'internet fera le reste.
+
+On commence par trouver une méthode permettant de lire ces 120 sites à l'aide de mots clés.
+on a jete son devolue sur python car il promet un support natif de librairies interessantes.....
+
+apres quelques deboire , quelques mots cles judicieusement choisies par rebond* nous permettent d obtenir ce que l on cherche.
+on peut telecharger une pafe simplement,
+
+On va tester l occurence des termes definis dans une liste sur chacune des pages.
+On cherche a descendre dans l arborescence.
+on notera chaque fois qu'un terme est trouvé et on ponderera par 1/profondeur --ou sqroot(1/profondeur)???
+
+Pour les sites presentant une arborescence trop riche, on la limitera programatiquement.
+
+On tentera d'identifer des entites n etant pas dans la liste initiale.
+
+
+On gardera trace de la source
+
+On creera ainsi un reseau d'entitees liees par 3 parametres:
+1-le nombre de citations respectives.
+2-une proximité google -trouver ref-
+3-le nombre d'apparition dans les memes articles
+
+sachant que chaque noeud se verra attribuer la somme des valeurs heritees de chacune de ses associations, cela nous permet de lister les relations et de se poser la question du caractere volontaire de cette co apparition.*
+
