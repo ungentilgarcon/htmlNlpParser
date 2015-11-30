@@ -1,0 +1,15 @@
+HTTrack3.48-1+libhtsjava.so.2 launched on Sat, 28 Nov 2015 01:02:41 at http://aadn.org
+(httrack http://aadn.org -Y -r30 -%P0 -t -X0 "-o0 " -s0 -%l '*' -q -z -I0 -B -e "-#L10000 " )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:02:41	Info: 	engine: start
+01:02:41	Info: 	Warning: could not detect encoding for: primary/primary
+01:02:41	Info: 	engine: check-html: primary/primary
+01:02:41	Info: 	engine: transfer-status: link error (403, 'Forbidden'): aadn.org/
+01:02:41	Error: 	"Forbidden" (403) at link aadn.org/ (from primary/primary)
+01:02:41	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
+01:02:41	Info: 	engine: end
