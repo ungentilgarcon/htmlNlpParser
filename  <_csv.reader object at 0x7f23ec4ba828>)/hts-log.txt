@@ -1,0 +1,24 @@
+HTTrack3.48-20 launched on Mon, 30 Nov 2015 14:02:12 at (http://ahn.ens-lyon.fr/,%20<_csv.reader%20object%20at%200x7f23ec4ba828>)
+(httrack "(http://ahn.ens-lyon.fr/, <_csv.reader object at 0x7f23ec4ba828>)" -O "/tmp/(http___ahn.ens-lyon.fr_, <_csv.reader object at 0x7f23ec4ba828>)" -Y -r30 -%P0 -t -X0 -o0 -s0 -F "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15" -%l * -q -z -I0 -B -e -#L10000 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:02:12	Info: 	engine: start
+14:02:12	Info: 	Warning: could not detect encoding for: primary/primary
+14:02:12	Info: 	engine: check-html: primary/primary
+14:02:14	Error: 	Exit requested by shell or user
+14:02:20	Warning: 	File not added due to mirror cancel: ahn.ens-lyon.fr/, <_csv.reader object at 0x7f23ec4ba828>)
+14:02:20	Info: 	link not taken because of error (404 'Not Found') at ahn.ens-lyon.fr/, <_csv.reader object at 0x7f23ec4ba828>)
+14:02:20	Warning: 	File not added due to mirror cancel: ahn.ens-lyon.fr/, <_csv.reader object at 0x7f23ec4ba828>)
+14:02:20	Error: 	"mirror stopped by user" (-1) at link ahn.ens-lyon.fr/, <_csv.reader object at 0x7f23ec4ba828>) (from primary/primary)
+14:02:20	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
+14:02:20	Info: 	engine: end
+14:02:20	Info: 	hashtable "back_new" summary: size=16 (lg2=4) used=1 stash-size=0 pool-size=64 pool-capacity=256 pool-used=64 writes=1 (new=1) moved=0 stashed=0 max-stash-size=0 avg-moved=0 rehash=0 pool-compact=0 pool-realloc=1 memory=1264
+14:02:20	Info: 	hashtable "cache_hashtable" summary: size=16 (lg2=4) used=1 stash-size=0 pool-size=51 pool-capacity=256 pool-used=51 writes=1 (new=1) moved=0 stashed=0 max-stash-size=0 avg-moved=0 rehash=0 pool-compact=0 pool-realloc=1 memory=1264
+14:02:20	Info: 	hashtable "cache_tests" summary: size=16 (lg2=4) used=0 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=0 (new=0) moved=0 stashed=0 max-stash-size=0 avg-moved=-nan rehash=0 pool-compact=0 pool-realloc=0 memory=1008
+14:02:20	Info: 	hashtable "hash->sav" summary: size=16 (lg2=4) used=2 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=2 (new=2) moved=0 stashed=0 max-stash-size=0 avg-moved=0 rehash=0 pool-compact=0 pool-realloc=0 memory=1008
+14:02:20	Info: 	hashtable "hash->adrfil" summary: size=16 (lg2=4) used=2 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=2 (new=2) moved=0 stashed=0 max-stash-size=0 avg-moved=0 rehash=0 pool-compact=0 pool-realloc=0 memory=1008
+14:02:20	Info: 	hashtable "hash->former_adrfil" summary: size=16 (lg2=4) used=1 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=2 (new=1) moved=0 stashed=0 max-stash-size=0 avg-moved=0 rehash=0 pool-compact=0 pool-realloc=0 memory=1008
