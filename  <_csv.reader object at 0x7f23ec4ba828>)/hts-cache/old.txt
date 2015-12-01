@@ -1,2 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-14:02:12	27994/27994	---M-Z	404	error ('Not%20Found')	text/html	date:Mon,%2030%20Nov%202015%2013:02:18%20GMT	http://aadn.org/,%20<_csv.reader%20object%20at%200x7f23ec4ba828>)	/tmp/(http___aadn.org_/aadn.org/,%20__csv.0.delayed	(from )

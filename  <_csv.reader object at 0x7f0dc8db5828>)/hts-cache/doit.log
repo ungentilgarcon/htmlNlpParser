@@ -1,8 +1,0 @@
-"(http://aadn.org/, <_csv.reader object at 0x7f0dc8db5828>)" -O "/tmp/(http___aadn.org_, <_csv.reader object at 0x7f0dc8db5828>)" -Y -r30 -%P0 -t -X0 -o0 -s0 -F "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15" -%l * -q -z -I0 -B -e -#L10000
-File generated automatically on Mon, 30 Nov 2015 13:58:20, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
