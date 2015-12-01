@@ -7,7 +7,7 @@ import threading
 import queue
 import traceback
 import threadpool
-
+import time
 
 #python3 code
 import csv
@@ -79,8 +79,6 @@ with open('./data/liste_sites.csv', newline='') as csvfile:
         except KeyboardInterrupt:
             print("**** Interrupted!")
             break
-        except NoResultsPending:
-            print("**** No pending results.")
-            break
+
     if main.dismissedWorkers:
         print("Joining all dismissed worker threads...")

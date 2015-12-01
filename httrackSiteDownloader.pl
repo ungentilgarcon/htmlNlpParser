@@ -19,7 +19,7 @@ my $replace = "_";
 
 my $params1 = "\'\\ http://";
 my $params2 = "' -O '/tmp/";
-my $params3  = " -Y -r30  -%P0 -t -X0 -o0  -s0 -F 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15' -%l '*' -q -z -I0 -B -e -#L10000 ";
+my $params3  = " -Y -r10 -%e3 -%P0 -t -X0 -o0  -s0 -F 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15' -%l '*' -q -z -I0 -B -e -#L1000 ";
 my $other = "Other";
 
 my $string =  $progr."'".$urlHttrack.$params2.$urlHttrackFolder."'".$params3;
